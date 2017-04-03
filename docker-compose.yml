@@ -28,7 +28,7 @@ services:
           - db
 
   jira:
-    image: hbokh/docker-jira-postgresql
+    image: cptactionhank/atlassian-jira-software:latest
     container_name: jira
     ports:
       - "8080:8080"
